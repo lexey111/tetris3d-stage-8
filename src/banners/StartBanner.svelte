@@ -4,9 +4,12 @@
 </script>
 
 <div id="start-banner">
-  <h1>TETRIS</h1>
+  <h1>TETRIS&middot;3D</h1>
   <h2>Welcome to Tetris WebGL Game</h2>
   <Cube/>
+  <p>
+    An even more advanced version is <a href="https://lexey111.github.io/tetris/">here</a>.
+  </p>
   <p>press Space to start</p>
 </div>
 
@@ -25,7 +28,7 @@
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom right, #00bcff, #007cff);
+    background: linear-gradient(to bottom right, #00bcff, #016ee2);
   }
   h1,
   h2 {
