@@ -31,9 +31,21 @@
     background: linear-gradient(to bottom right, #ffc900, #ff8500);
     color: #63212f;
   }
+  p {
+    text-transform: uppercase;
+  }
   h1,
   h2 {
     margin: 0;
     font-weight: normal;
+  }
+  h1{
+    width: 100%;
+    text-align: center;
+    border-top: 1px dashed rgba(200, 255, 200, 0.6);
+    border-bottom: 1px dashed rgba(200, 255, 200, 0.6);
+    background-color: rgba(200, 255, 200, 0.2);
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   }
 </style>
