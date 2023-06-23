@@ -159,6 +159,7 @@
     started = false;
     paused = false;
     gameOver = false;
+    fillField(0);
   }
 
   function gameOverGame() {
